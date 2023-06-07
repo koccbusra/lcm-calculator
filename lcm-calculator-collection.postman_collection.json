@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "0ea5ff81-0f35-4c38-879d-f455bf8facc1",
+		"name": "lcm-calculator-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "calculate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "setUpperValue",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"upperNumber\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/upperNumber",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"upperNumber"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
