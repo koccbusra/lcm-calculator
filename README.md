@@ -10,7 +10,7 @@ Docker file is prepared to build docker image to publish a container.
 You can build application with maven and jdk-17.
 You can build with this command while using terminal `mvn clean install wrapper:wrapper`.
 # How to run?
-You can run application as a docker container using DockerFile.
+You can run application as a docker container using DockerFile. 
 create docker image:
 `docker build . -t lcm-calculator:1.0`
 run docker image:
@@ -25,7 +25,7 @@ First, you need to send get request to set the value for instance; `localhost:80
     "upperNumber": 15
 }
 ```
-then, you can get least common multiple with this post request `localhost:9090/api/calculate`. 
+then, you can get least common multiple with this post request `localhost:8080/api/calculate`. 
 When you send this request, application will return such a this response:
 ```
 {
